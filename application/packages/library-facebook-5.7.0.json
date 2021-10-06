@@ -1,0 +1,86 @@
+{
+  "type": "library",
+  "name": "facebook",
+  "version": "5.7.0",
+  "revision": "9747",
+  "path": "application\/libraries\/Facebook",
+  "repository": null,
+  "sku": null,
+  "date": "Thu, 23 Sep 2021 11:13:16 +0000",
+  "title": "Facebook API",
+  "description": null,
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "Webligo Developments"
+  ],
+  "meta": {
+    "date": "Thu, 23 Sep 2021 11:13:16 +0000",
+    "title": "Facebook API",
+    "description": null,
+    "developer": null,
+    "authors": [
+      "Webligo Developments"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    
+  ],
+  "callback": null,
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/libraries\/Facebook": {
+      "type": "directory",
+      "path": "application\/libraries\/Facebook",
+      "structure": [
+        {
+          "path": "fb_ca_chain_bundle.crt",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 7505,
+          "sha1": "c7d4d8477ed6ac250dc522f155f23aa789922e65"
+        },
+        {
+          "path": "manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 401,
+          "sha1": "a36d68043079a6336f1be991717239841815f822"
+        },
+        {
+          "path": "Base.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 31812,
+          "sha1": "a8651c7b24ea20d9905c84e7d20a6d06e8b5d6f2"
+        },
+        {
+          "path": "Api.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 2879,
+          "sha1": "4a08561b5113cc5bc83102bb520f02267ec0394c"
+        },
+        {
+          "path": "Exception.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 2203,
+          "sha1": "105d9d81789b0538afa6468c55517f28ad37b076"
+        }
+      ]
+    }
+  }
+}

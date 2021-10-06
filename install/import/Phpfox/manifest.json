@@ -1,0 +1,8 @@
+{
+	"title": "phpFox Import",
+	"description": "Transfer your data from a phpFox site to a new SocialEngine 4 Installation",
+	"url": {
+		"controller": "phpfoximport",
+		"action": "phpfox-instructions"
+	}
+}

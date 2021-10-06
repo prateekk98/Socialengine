@@ -1,0 +1,1 @@
+UPDATE `engine4_serenity_customthemes` SET `value`='#CCCCCC' WHERE `column_key` = 'serenity_font_color_light' AND `theme_id`=3;

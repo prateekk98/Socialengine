@@ -1,0 +1,53 @@
+.serenity_menu_top_settings .color_modes > li.active > a{
+	background:$theme_button_background_color;
+	border:1px solid $theme_button_background_color;
+}
+.serenity_menu_top_settings .color_modes > li.active > a,
+.serenity_menu_top_settings .color_modes > li.active > a *,
+.serenity_menu_top_settings ul.resizer > li.active > a{
+	color:$theme_button_font_color !important;
+}
+.serenity_menu_top{
+	background:$theme_list_background_color;
+}
+.serenity_menu_top_settings ul.resizer > li.active > a{
+	background:$theme_button_background_color;
+	color:$theme_button_font_color !important;
+	border:1px solid $theme_button_background_color;
+}
+.dark_mode .layout_page_header,
+.light_mode .layout_page_header {
+  background-color:$theme_topbar_background_color;
+}
+.light_mode .global_form button[type=submit],
+.light_mode .browsemembers_criteria button,
+.light_mode .layout_core_banner a:link, 
+.light_mode .layout_core_banner a:visited,
+.light_mode .profile_cover_btn i,
+.light_mode button,
+.light_mode ul.forum_categories > li > div > h3,
+.light_mode ul.grid_wrapper > li .groups_members *,
+.light_mode ul.profile_options_pulldown > li:hover a, 
+.light_mode .coverphoto_navigation ul > li:hover a{
+	color:$theme_button_font_color !important;
+}
+.light_mode .layout_core_menu_main .navigation > li > ul > li > a:hover *,
+.light_mode .layout_core_menu_main .navigation > li > ul > .selected_sub_main_menu > a *,
+.light_mode .layout_core_menu_main .navigation > .more_tab > ul > li.active > a *{
+	color:$theme_topbar_menu_link_color !important;
+}
+.light_mode .layout_core_menu_main .navigation > li > ul > li > a:hover,
+.light_mode .layout_core_menu_main .navigation > li > ul > .selected_sub_main_menu > a,
+.light_mode .layout_core_menu_main .navigation > .more_tab > ul > li.active > a{
+  background:$theme_list_background_color !important;
+}
+html .light_mode .layout_core_menu_mini #core_menu_mini_menu > ul > li .user_auth_link *{
+	color:$theme_topbar_menu_link_background_color_hover !important;
+}
+html .light_mode .layout_core_menu_mini #core_menu_mini_menu > ul > li > a.core_mini_signup *{
+	color:$theme_topbar_minimenu_link_color !important;
+}
+html .light_mode .tabs > ul > li.active > a{
+  background-color:$theme_buttontabs_background_color_active;
+	color:$theme_buttontabs_font_color_active !important;
+}

@@ -1,0 +1,7 @@
+{
+	"title": "Ning Import",
+	"description": "Transfer your data from a Ning Export to a new SocialEngine 4 Installation",
+	"url": {
+		"action": "ning-instructions"
+	}
+}

@@ -1,0 +1,405 @@
+/* MNEU TOP */
+.serenity_menu_top{
+	padding: 6px;
+}
+.serenity_menu_top_settings > ul {
+  display: flex;
+}
+.serenity_menu_top_settings ul.resizer,
+.serenity_menu_top_settings .color_modes {
+  display: flex;
+}
+.serenity_menu_top_settings .resizer > .resizer-label,
+.serenity_menu_top_settings .color_modes .color-label{
+  border: 0;
+	margin-right: 10px;
+}
+[dir="rtl"] .serenity_menu_top_settings .resizer > .resizer-label, 
+[dir="rtl"] .serenity_menu_top_settings .color_modes .color-label{
+	margin-right:0;
+	margin-left: 10px;
+}
+.serenity_menu_top_settings ul.resizer > li > a,
+.serenity_menu_top_settings .color_modes > li > a{
+	padding: 3px 8px;
+	border-width: 1px;
+}
+.serenity_menu_top_settings ul.resizer > li > a,
+.serenity_menu_top_settings .color_modes > li > a{
+	font-size:95%;
+}
+.serenity_menu_top_settings > ul > li {
+  margin-right: 10px;
+}
+@media(max-width:767px){
+	.global_left_panel .serenity_menu_top {
+			margin-bottom:10px;
+			margin-top: -15px;
+   }
+	 .layout_serenity_menu_top .core_main_menu_toggle {
+		  top: 45px !important;
+   }
+	 html .dark_mode .serenity_menu_top,
+	 .layout_core_search_mini #global_search_form{
+		  background:none !important;
+	 }
+	 .serenity_menu_top_settings > ul {
+    justify-content: center;
+  }
+}
+/* MENU TOP */
+@media(min-width:900px){
+.serenity_menu_top > div{
+  padding-left:5%;
+}
+[dir="rtl"] .serenity_menu_top > div{
+	padding-left:0;
+	padding-right:5%;
+}
+}
+/* COLOR SWITCHER */
+.dark_mode,
+.dark_mode .tabs > ul > li > a,
+.dark_mode .quicklinks li:nth-child(odd),
+.dark_mode .pulldown_contents_wrapper,
+.dark_mode #pswd_info > ul > li{
+	background:#2c2c2c;
+}
+.dark_mode .paginationControl >li.selected,
+.dark_mode .paginationControl>li>a:hover{
+	background:#2c2c2c !important;
+}
+.dark_mode *,
+.dark_mode .tabs_alt>ul{
+ border-color: #666666 !important;
+}
+.dark_mode *,
+.dark_mode a,
+.dark_mode ul.feed .feed_item_generated,
+.dark_mode .layout_core_search_mini #global_search_form:before,
+.dark_mode .layout_core_search_mini #global_search_field::placeholder{
+	color:#cacaca !important;
+}
+.dark_mode .layout_left > .generic_layout_container, 
+.dark_mode .layout_middle > .generic_layout_container, 
+.dark_mode .layout_right > .generic_layout_container,
+.dark_mode .layout_core_menu_main,
+.dark_mode .compose-content,
+.dark_mode ul.feed > li,
+.dark_mode .layout_page_footer,
+.dark_mode .layout_user_list_online > div,
+.dark_mode .layout_core_statistics ul,
+.dark_mode .layout_user_home_links .quicklinks li,
+.dark_mode div#profile_options li, 
+.dark_mode #events-upcoming,
+.dark_mode ul.generic_list_widget,
+.dark_mode .layout_user_home_photo > div,
+.dark_mode .global_form_box,
+.dark_mode .quicklinks li,
+.dark_mode .core_menu_top,
+.dark_mode .serenity_menu_top,
+.dark_mode .activity-post-container,
+.dark_mode  form.filters,
+.dark_mode .blogs_landing_page > ul > li,
+.dark_mode .core_landingpage_features > section > div,
+html .dark_mode form,
+.dark_mode div.field-privacy-selector,
+.dark_mode .layout_left > .generic_layout_container, 
+.dark_mode .layout_middle > .generic_layout_container, 
+.dark_mode .layout_right > .generic_layout_container, 
+.dark_mode .layout_core_container_tabs > div.generic_layout_container,
+.dark_mode .layout_group_profile_info > ul,
+.dark_mode .chat_main, 
+.dark_mode .chat_users_wrapper, 
+.dark_mode .chat_users > li,
+.dark_mode .chat_container,
+.dark_mode .pulldown > a,
+.dark_mode .core_settings_dropdown,
+.dark_mode .pulldown_contents,
+.dark_mode .tagger_form,
+.dark_mode .browsemembers_criteria,
+.dark_mode .coverphoto_navigation ul,
+.dark_mode ul.profile_options_pulldown,
+.dark_mode .tab_pulldown_contents,
+.dark_mode #event_stats > ul,
+.dark_mode ul.event_discussions_thread > li,
+.dark_mode .event_discussions_options,
+.dark_mode ul.event_discussions .event_discussions_replies,
+.dark_mode ul.group_discussions_thread > li,
+.dark_mode .group_discussions_options,
+.dark_mode ul.group_discussions .group_discussions_replies,
+.dark_mode .layout_core_menu_main .main_menu_navigation,
+.dark_mode div.forum_topic_options,
+.dark_mode .layout_core_menu_main .panel-toggle,
+.dark_mode .user_login_page .user_login_form,
+.dark_mode .comments > ul > li,
+.dark_mode .generic_list_wrapper,
+.dark_mode .layout_core_statistics ul > li span,
+.dark_mode .tabs_alt>ul,
+.dark_mode input[type=text], .dark_mode input[type=email], .dark_mode input[type=password], .dark_mode input.text, .dark_mode select, .dark_mode textarea,
+.dark_mode .privacy_pulldown_contents_wrapper,.dark_mode h4 > span,
+.dark_mode .layout_announcement_list_announcements ul,
+.dark_mode ul.requests_widget,
+.dark_mode div.field-privacy-selector ul{
+  background:#505050 !important;
+}
+html .dark_mode .layout_core_menu_mini #core_menu_mini_menu > ul > li .user_auth_link{
+	color:#fff !important;
+	background:#505050 !important;
+}
+.dark_mode .mce-widget span, 
+.dark_mode .mce-widget i{
+	color:#333 !important;
+}
+.dark_mode .tip > span,
+.dark_mode .tip a,
+.dark_mode ul.form-errors li{
+	color:#000 !important;
+}
+.dark_mode ul.blogs_browse > li {
+	box-shadow: 0 6px 6px #3f3f3f;
+}
+.dark_mode a.buttonlink:after{
+	color:#505050;
+}
+.dark_mode .core_settings_dropdown:before,
+.dark_mode #core_menu_mini_menu .pulldown_contents_wrapper:before{
+	border-bottom: 10px solid #505050;
+}
+.dark_mode .coverphoto_navigation ul:before,
+.dark_mode ul.profile_options_pulldown:before{
+	border-bottom-color:#505050 !important;
+}
+.dark_mode ul.blogs_gutter_options > li, 
+.dark_mode .layout_middle > .layout_user_cover_photo, 
+.dark_mode .layout_middle > .layout_event_cover_photo, 
+.dark_mode .layout_middle > .layout_group_cover_photo,
+.dark_mode .panel-collapsed .layout_core_menu_main li:nth-child(odd) .menu_core_main i{
+	background:none !important;
+}
+.dark_mode .tip > span > a{
+	color:#03598f !important;
+	font-weight:600;
+}
+.dark_mode .blogs_landing_page > ul > li{
+	box-shadow:none;
+}
+.dark_mode .blogs_landing_page .bg_item_photo{
+	border:0;
+}
+.dark_mode .mce-edit-area {
+  opacity: .5;
+}
+.dark_mode .layout_core_menu_main .navigation > li.active a span,
+.dark_mode .quicklinks li a,
+.dark_mode .layout_core_menu_main .navigation > li.active > a > i{
+	color:#fff !important;
+}
+.dark_mode .layout_core_menu_main {
+  box-shadow: 0 4px 4px #000000;
+}
+html #im_container .im_item_title,
+html .im_item_friends_title > span{
+	color:#333 !important;
+}
+.dark_mode .layout_page_header {
+  background-color: #2b2b2b;
+}
+.dark_mode ul.forum_categories .forum_icon a > img{
+	filter:brightness(100);
+}
+.dark_mode a:hover, 
+.dark_mode a:visited {
+  color: #fff !important;
+}
+.dark_mode  ul.feed .feed_item_icon > ul a:hover,.dark_mode  ul.feed .feed_item_icon > ul a:hover::before,.dark_mode  ul.feed .feed_item_icon > ul .feed_item_option_unlike a,.dark_mode  ul.feed .feed_item_icon > ul .feed_item_option_unlike a::before {
+  color: #ffffff !important;
+}
+/* LIGHT MODE */
+.light_mode,
+.light_mode .tabs > ul > li > a,
+.light_mode .quicklinks li:nth-child(odd),
+.light_mode .pulldown_contents_wrapper,
+.light_mode #pswd_info > ul > li{
+	background:#E6ECF0;
+}
+.light_mode *,
+.light_mode .tabs_alt>ul{
+  border-color:#E2E4E6 !important;
+}
+.light_mode .layout_core_search_mini #global_search_form:before,
+.light_mode .layout_core_search_mini #global_search_field::placeholder,
+.light_mode .layout_core_search_mini #global_search_field{
+	color:#E2E4E6 !important;
+}
+.light_mode *,
+.light_mode a,
+.light_mode ul.feed .feed_item_generated{
+	color:#5F727F !important;
+}
+.light_mode .layout_left > .generic_layout_container, 
+.light_mode .layout_middle > .generic_layout_container, 
+.light_mode .layout_right > .generic_layout_container,
+.light_mode .layout_core_menu_main,
+.light_mode .compose-content,
+.light_mode ul.feed > li,
+.light_mode .layout_page_footer,
+.light_mode .layout_user_list_online > div,
+.light_mode .layout_core_statistics ul,
+.light_mode .layout_user_home_links .quicklinks li,
+.light_mode div#profile_options li, 
+.light_mode #events-upcoming,
+.light_mode ul.generic_list_widget,
+.light_mode .layout_user_home_photo > div,
+.light_mode .global_form_box,
+.light_mode .core_menu_top,
+.light_mode .serenity_menu_top,
+.light_mode .activity-post-container,
+.light_mode  form.filters,
+.light_mode .blogs_landing_page > ul > li,
+.light_mode .core_landingpage_features > section > div,
+html .light_mode form,
+.light_mode div.field-privacy-selector,
+.light_mode .layout_left > .generic_layout_container, 
+.light_mode .layout_middle > .generic_layout_container, 
+.light_mode .layout_right > .generic_layout_container, 
+.light_mode .layout_core_container_tabs > div.generic_layout_container,
+.light_mode .layout_group_profile_info > ul,
+.light_mode .chat_main, 
+.light_mode .chat_users_wrapper, 
+.light_mode .chat_users > li,
+.light_mode .chat_container,
+.light_mode .pulldown > a,
+.light_mode .core_settings_dropdown,
+.light_mode .pulldown_contents,
+.light_mode .tagger_form,
+.light_mode .browsemembers_criteria,
+.light_mode .coverphoto_navigation ul,
+.light_mode ul.profile_options_pulldown,
+.light_mode .tab_pulldown_contents,
+.light_mode #event_stats > ul,
+.light_mode ul.event_discussions_thread > li,
+.light_mode .event_discussions_options,
+.light_mode ul.event_discussions .event_discussions_replies,
+.light_mode ul.group_discussions_thread > li,
+.light_mode .group_discussions_options,
+.light_mode ul.group_discussions .group_discussions_replies,
+.light_mode .layout_core_menu_main .main_menu_navigation,
+.light_mode div.forum_topic_options,
+.light_mode .layout_core_menu_main .panel-toggle,
+.light_mode .user_login_page .user_login_form,
+.light_mode .comments > ul > li,
+.light_mode .generic_list_wrapper,
+.light_mode .layout_core_statistics ul > li span,
+.light_mode .tabs_alt>ul,
+.light_mode input[type=text], .light_mode input[type=email], .light_mode input[type=password], .light_mode input.text, .light_mode select, .light_mode textarea,
+.light_mode .privacy_pulldown_contents_wrapper,.light_mode h4 > span,
+.light_mode .layout_announcement_list_announcements ul,
+.light_mode ul.requests_widget,
+.light_mode div.field-privacy-selector ul,
+.light_mode .global_form div.form-wrapper-heading > span{
+  background:#fff !important;
+}
+.light_mode .mce-widget span, 
+.light_mode .mce-widget i{
+	color:#1C2735 !important;
+}
+.light_mode .tip > span,
+.light_mode .tip a,
+.light_mode ul.form-errors li{
+	color:#1C2735 !important;
+}
+.light_mode ul.blogs_browse > li {
+	box-shadow: 0 6px 6px #3f3f3f;
+}
+.light_mode a.buttonlink:after{
+	color:#505050;
+}
+.light_mode .core_settings_dropdown:before,
+.light_mode #core_menu_mini_menu .pulldown_contents_wrapper:before{
+	border-bottom: 10px solid #E2E4E6;
+}
+.light_mode .coverphoto_navigation ul:before,
+.light_mode ul.profile_options_pulldown:before{
+	border-bottom-color:#E2E4E6 !important;
+}
+.light_mode ul.blogs_gutter_options > li, 
+.light_mode ul.blogs_gutter_options > li{
+	background:none !important;
+}
+.light_mode .tip > span > a{
+	color:#03598f !important;
+	font-weight:600;
+}
+.light_mode .blogs_landing_page > ul > li{
+	box-shadow:none;
+}
+.light_mode .blogs_landing_page .bg_item_photo{
+	border:0;
+}
+.light_mode .layout_core_menu_mini #core_menu_mini_menu > ul .core_mini_auth span{
+  color: #fff !important;
+}
+.light_mode .quicklinks li a{
+	color:#5F727F !important;
+}
+.light_mode .quicklinks li,
+.light_mode .layout_core_statistics ul > li span{
+	background: #E6ECF0 !important;
+}
+.light_mode .layout_core_menu_main {
+  box-shadow: 0 4px 4px #000000;
+}
+html #im_container .im_item_title,
+html .im_item_friends_title > span{
+	color:#333 !important;
+}
+.light_mode a:hover, 
+.light_mode a:visited{
+  color:#1C2735 !important;
+}
+.light_mode .layout_core_menu_main .navigation > li > a * {
+  color: #909090 !important;
+}
+.light_mode  ul.feed .feed_item_icon > ul a:hover,.light_mode  ul.feed .feed_item_icon > ul a:hover::before,.light_mode  ul.feed .feed_item_icon > ul .feed_item_option_unlike a,.light_mode  ul.feed .feed_item_icon > ul .feed_item_option_unlike a::before {
+  color:#1C2735 !important;
+}
+.light_mode  .mce-caret{
+  border-top-color: #1C2735 !important;
+	border-right: 4px solid transparent !important;
+	border-left: 4px solid transparent !important;
+}
+.light_mode .layout_core_menu_mini #core_menu_mini_menu > ul > li > a,
+.light_mode .layout_core_menu_logo a,
+.light_mode .layout_core_menu_mini #core_menu_mini_menu > ul > li a i,
+.light_mode .music_player *{
+	color:#fff !important;
+}
+.light_mode .layout_core_menu_main .navigation > li.active > a *,
+.light_mode .layout_core_menu_main .navigation > li:hover > a *,
+.light_mode .layout_core_menu_main ul ul li a *,
+.light_mode .layout_core_banner > div > section > div *,
+.light_mode .cover_photo_profile_options h2,
+.light_mode .coverphoto_navigation > i,
+.light_mode .minimenu_update_count_bubble_active.show_icons,
+.light_mode .profile_cover_photo_tabs .tabs_alt > ul > li.active > a,
+.light_mode .profile_cover_photo_tabs .tabs_alt > ul > li.active > a > span,
+.light_mode .profile_cover_photo_tabs .tabs_alt > ul > li:hover > a,
+.light_mode ul.grid_wrapper .video_length,
+.light_mode ul.grid_wrapper .thumbs_info,
+.light_mode ul.grid_wrapper .thumbs_title a,
+.light_mode .music_player_tracks .music_player_tracks_name a{
+	color:#fff !important;
+}
+.light_mode .layout_middle > .layout_user_cover_photo, 
+.light_mode .layout_middle > .layout_event_cover_photo, 
+.light_mode .layout_middle > .layout_group_cover_photo,
+.light_mode .layout_core_search_mini #global_search_field,
+.light_mode .layout_core_search_mini #global_search_form,
+.light_mode .profile_cover_photo_tabs .tabs_alt > ul{
+	background:none !important;
+}
+.light_mode .rating_star_big,
+.light_mode .rating_star_big_half {
+  color:#FFC107 !important;
+}

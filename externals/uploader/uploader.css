@@ -1,0 +1,52 @@
+/* $Id: upload.css 9363 2011-10-10 23:52:26Z john $ */
+
+#uploaded-file-list, #upload_file {
+  display: none;
+}
+
+#files-status-overall .progress, #file-status-current .progress {
+  background-image: url('../uploader/images/progress-bar/progress.gif');
+  background-position: -400px 0px;
+  vertical-align: middle;
+}
+
+#file-status > div:first-child {
+  margin:0 0 10px 0;
+}
+#file-status > div {
+  margin: 10px 0 0 0;
+}
+#uploaded-file-list {
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+#uploaded-file-list > li {
+  padding: 8px 10px 8px 32px;
+  font-size: 12px;
+  border-bottom: 1px solid #eee;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+#uploaded-file-list > li.file-success {
+    background-image: url('../uploader/images/finished.png');
+}
+#uploaded-file-list > li.file-error {
+    background-image: url('../uploader/images/error.png');
+}
+#uploaded-file-list > li:last-child {
+  border-bottom: none;
+}
+#uploaded-file-list .file-remove {
+  float: right;
+}
+#uploaded-file-list .file-name {
+  font-weight: bold;
+}
+#remove_all_files {
+  margin-left: 3%;
+}
+#upload_file_link {
+  cursor: pointer;
+}

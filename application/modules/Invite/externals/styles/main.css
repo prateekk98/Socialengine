@@ -1,0 +1,53 @@
+/* $Id:main.css 9305 2011-09-21 22:44:01Z john $ */
+
+.invites_notify a,
+.invites_notify b{
+	color:$theme_button_background_color;
+	font-weight:600;
+}
+.invite-primary,
+.invite-secondary {
+	display:inline-block;
+	padding:7px 14px;
+	border:2px solid;
+	border-radius:4px;
+	margin:10px 0;
+}
+.invite-primary{
+  color:$theme_button_background_color !important;	
+}
+.invite-secondary{
+	border:2px solid $theme_button_background_color;
+	color:$theme_button_font_color !important;	
+	background:$theme_button_background_color;	
+}
+.invite-primary > i,
+.invite-secondary > i{
+	margin-right:5px;
+}
+.invite-primary.disable{
+	opacity:0.6;
+}
+.invite_table {
+  max-width:500px;
+	margin-bottom:10px;
+}
+.invite_table > div {
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	border-bottom-width:1px;
+}
+.invite_table .invite_email {
+  font-weight:bold;
+	padding-right:10px;
+}
+@media(max-width:767px){
+ .invite_table > div {
+    align-items:baseline;
+    flex-direction:column;
+  }	
+	.invite_table .invite_email {
+	  padding-right:0;
+  }
+}

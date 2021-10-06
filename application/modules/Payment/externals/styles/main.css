@@ -1,0 +1,94 @@
+
+/* $Id:main.css 9191 2011-08-20 00:00:03Z john $ */
+
+
+
+.payment_form_signup .package-container,
+.payment_form_settings .package-container
+{
+  display:block;
+  padding-left:20px;
+}
+
+.payment_form_settings .package-label
+{
+  font-weight:bold;
+}
+
+.payment_form_settings .package-description
+{
+  padding-top:2px;
+  clear:both;
+}
+
+.payment_form_signup .package-description
+{
+  padding-top:2px;
+  clear:both;
+  padding-bottom:4px;
+}
+
+.payment_form_signup .form-elements .form-label
+{
+  width:100px;
+}
+/* PAYMENT SUBSCRIBE PLAN */
+.payment_subscribe_plan > ul
+{
+	display:flex;
+	flex-wrap:wrap;
+}
+.payment_subscribe_plan > ul > li
+{
+	box-sizing:border-box;
+	text-align:center;
+	width:100%;
+}
+.layout_middle .payment_subscribe_plan > ul > li{
+	max-width:25%;
+}
+.layout_middle .payment_subscribe_plan > ul{
+	justify-content:center;
+}
+.payment_subscribe_plan > ul > li ._cont
+{
+	background:#FFFFFF !important;
+	padding:10px;
+	border-radius:10px 10px 0 0;
+}
+.plan_box ._title
+{
+	text-align:center;
+	font-weight:bold;
+	color:#03598f;
+	margin-bottom:10px;
+	font-size:22px;
+}
+.plan_box ._desc
+{
+	text-align:center;
+	max-width:90%;
+	margin:auto;
+	margin-bottom:20px;
+}
+.plan_box ul > li
+{
+	padding:10px 0;
+	border-top-width:1px;
+	text-align:center;
+}
+.plan_box ul > li b
+{
+	color:#03598f;
+	margin-top:5px;
+	display:block;
+}
+.payment_subscribe_plan > ul > li button{
+	margin:auto !important;
+	display:block;
+}
+@media(max-width:767px){
+	.layout_middle .payment_subscribe_plan > ul > li{
+		max-iwtdh:100%;
+	}
+}

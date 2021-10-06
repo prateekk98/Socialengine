@@ -1,0 +1,1006 @@
+
+/* $Id:main.css 9806 2012-10-30 23:54:12Z matthew $ */
+.layout_activity_feed {
+  min-height:600px;
+}
+
+/*
+REQUESTS & NOTIFICATIONS
+Used on the member's "view requests and updates" page,
+which lists all their recent notifications.
+*/
+div.notifications_layout
+{
+  clear:both;
+  overflow:hidden;
+}
+div.notifications_layout > div.notifications_leftside
+{
+  float:left;
+  width:330px;
+  overflow:hidden;
+}
+html[dir="rtl"] div.notifications_layout > div.notifications_leftside
+{
+  float:right;
+}
+.notifications_leftside .select_all {
+	right:0;
+	font-size:90%;
+}
+[dir="rtl"] .notifications_leftside .select_all {
+	right:auto;
+	left:0;
+}
+div.notifications_layout > div.notifications_rightside
+{
+  overflow:hidden;
+  padding-left:30px;
+}
+html[dir="rtl"] div.notifications_layout > div.notifications_rightside
+{
+  padding-left:0px;
+  padding-right:30px;
+}
+ul.notifications > li
+{
+  margin-bottom:10px;
+}
+ul.notifications > li + li
+{
+  border-top-width:1px;
+  padding-top:10px;
+}
+ul.notifications > li > input[type="checkbox"]{
+	margin-right:10px;
+}
+[dir="rtl"] ul.notifications > li > input[type="checkbox"]{
+	margin-right:0;
+	margin-left:10px;
+}
+ul.notifications > li > span:before
+{
+  display:none;
+}
+[dir="rtl"] ul.notifications > li > span:before
+{
+  margin-left:5px;
+  margin-right:0px;
+  float:right;
+}
+ul.notifications > li.notifications_unread > span
+{
+  font-weight:bold;
+}
+ul.notifications > li > span
+{
+  display:block;
+}
+html[dir="rtl"] ul.notifications > li > span
+{
+  padding-left:0px;
+}
+ul.requests
+{
+  overflow:hidden;
+}
+ul.requests > li
+{
+  overflow:hidden;
+  clear:both;
+  margin-bottom:20px;
+}
+ul.requests > li + li
+{
+  border-top-width:1px;
+  padding-top:10px;
+}
+ul.requests > li > img
+{
+  display:block;
+  float:left;
+}
+html[dir="rtl"] ul.requests > li > img
+{
+  float:right;
+}
+ul.requests > li > div
+{
+  overflow:hidden;
+  padding-left:10px;
+}
+html[dir="rtl"] ul.requests > li > div
+{
+  padding-left:0px;
+  padding-right:10px;
+}
+ul.requests > li > div > div > a
+{
+  font-weight:bold;
+}
+ul.requests > li > div > div + div
+{
+  padding:10px 0px 0px 0px;
+}
+ul.requests > li > div > div + div > a
+{
+  font-weight:normal;
+}
+ul.requests > li > div > div + div > button
+{
+  font-size:.8em;
+}
+
+
+
+/*
+REQUESTS WIDGET
+Used to style the small list of requests,
+typically viewed on the user home page
+when signed in.
+*/
+ul.requests_widget
+{
++foreground;
++rounded;
+  padding:10px;
+  margin-bottom:15px;
+}
+ul.requests_widget > li + li
+{
+  margin-top:5px;
+}
+
+
+
+
+
+
+/*
+ACTIVITY FEEDS
+These styles are used for the recent activity
+feed shown on the main portal page, as well as
+any other activity feeds shown elsewhere.
+*/
+ul.feed
+{
+  clear:both;
+}
+ul.feed > li
+{
+	padding:0px 0px 10px 0px;
+}
+ul.feed > li + li
+{
+  padding-top:10px;
+}
+ul.feed .feed_item_generated
+{
+  color:$theme_font_color_light;
+}
+ul.feed .feed_item_photo
+{
+	float:left;
+  overflow:hidden;
+  margin-right:7px;
+  line-height:0px;
+  font-size:0px;
+}
+html[dir="rtl"] ul.feed .feed_item_photo
+{
+  float:right;
+  margin-right:0px;
+  margin-left:10px;
+}
+ul.feed .feed_item_photo > a
+{
+  text-decoration:none;
+}
+ul.feed .feed_item_photo > a > img
+{
+  display:block;
+}
+ul.feed .feed_item_username
+{
+  font-weight:bold;
+}
+ul.feed .feed_item_icon
+{
+  font-size:.8em;
+  color:$theme_font_color_light;
+  padding-top:1px;
+}
+ul.feed .feed_item_icon > ul
+{
+  line-height:1em;
+  display:inline-block;
+}
+ul.feed .feed_item_icon > ul > li
+{
+  display:inline-block;
+  vertical-align:middle;
+}
+ul.feed .feed_item_icon
+{
+  margin-top:3px;
+  padding:1px 0px 3px 0px;
+}
+ul.feed .feed_item_date:before{
+  font-family:'Font Awesome\ 5 Free';
+  margin-right:5px;
+  font-size:14px;
+  vertical-align:middle;
+}
+[dir="rtl"] ul.feed .feed_item_icon:before{
+  margin-right:0px;
+  margin-left:5px;
+}
+ul.feed .feed_item_bodytext
+{
+  display:block;
+	margin-bottom:5px;
+  color:$theme_font_color;
+}
+ul.feed .feed_attachment_core_link
+{
+  overflow:hidden;
+}
+ul.feed .feed_item_attachments
+{
+  overflow:hidden;
+  padding:10px 10px 3px 10px;
+}
+ul.feed .feed_attachment_core_link > div
+{
+  overflow:hidden;
+  width:auto;
+}
+ul.feed .feed_attachment_core_link > div > a
+{
+  display:block;
+  float:left;
+}
+html[dir="rtl"] ul.feed .feed_attachment_core_link > div > a
+{
+  float:right;
+}
+ul.feed .feed_attachment_core_link > div > a > img
+{
+  display:block;
+  max-width:100px;
+}
+ul.feed .feed_attachment_core_link > div > a + div
+{
+  overflow:hidden;
+  padding-left:8px;
+}
+html[dir="rtl"] ul.feed .feed_attachment_core_link > div > a + div
+{
+  padding-left:0px;
+  padding-right:8px;
+}
+ul.feed .feed_attachment_core_link > div > a + div > a
+{
+  font-weight:bold;
+}
+
+
+
+
+ul.feed .feed_attachment_photo
+{
+  display:inline-block;
+  overflow:hidden;
+  margin:0px 0px 5px 0px;
+  vertical-align:top;
+}
+ul.feed .feed_attachment_photo a
+{
+  display:block;
+  float:left;
+}
+html[dir="rtl"] ul.feed .feed_attachment_photo a
+{
+  float:right;
+}
+
+ul.feed .feed_attachment_photo a > span
+{
+  display:block;
+  width:197px;
+  height:140px;
+  background-size:cover;
+  background-position:center 50%;
+  background-repeat:no-repeat;
+}
+#global_page_user-profile-index ul.feed .feed_attachment_photo a > span,
+#global_page_group-profile-index ul.feed .feed_attachment_photo a > span,
+#global_page_event-profile-index ul.feed .feed_attachment_photo a > span
+{
+  width:292px;
+  height:200px;
+}
+ul.feed .feed_attachment_photo a .feed_attachment_photo_overlay
+{
+  background:rgba(0, 0, 0,0.5);
+  z-index:1;
+  position:absolute;
+}
+
+ul.feed .feed_attachment_photo a .feed_attachment_photo_more_count
+{
+  font-size:40px;
+  font-weight:bold;
+  z-index:1;
+  position:absolute;
+  color:#fff;
+  text-align:center;
+  height:auto;
+  margin-top:50px;
+  line-height:40px;
+}
+#global_page_user-profile-index ul.feed .feed_attachment_photo a .feed_attachment_photo_more_count,
+#global_page_group-profile-index ul.feed .feed_attachment_photo a .feed_attachment_photo_more_count,
+#global_page_event-profile-index ul.feed .feed_attachment_photo a .feed_attachment_photo_more_count{
+	margin-top:70px;
+}
+ul.feed .feed_item_link_title
+{
+  font-weight:bold;
+  margin-bottom:2px;
+}
+ul.feed .feed_item_link_desc
+{
+  color:$theme_font_color_light;
+}
+ul.feed .comments textarea
+{
+  font-size:8pt;
+}
+ul.feed .comments textarea + button
+{
+  display:none;
+  font-size:.8em;
+}
+ul.feed .comments textarea:focus + button
+{
+  display:block;
+}
+ul.feed .comments > ul > li > div > a > img
+{
+  width:32px;
+  height:32px;
+}
+ul.feed span.view_more .view_more_link:before
+{
+  display:inline-block;
+  padding-left:10px;
+  content:"\\f0d7";
+  margin-right:5px;
+  font-family:'Font Awesome\ 5 Free';
+  color:$theme_link_color;
+	font-weight:600;
+}
+[dir="rtl"] ul.feed span.view_more .view_more_link:before
+{
+  padding-left:0px;
+  margin-right:0px;
+  padding-right:10px;
+  margin-left:5px;
+}
+ul.feed span.view_more .view_less_link:before
+{
+  display:inline-block;
+  padding-left:10px;
+  content:"\\f0d8";
+  margin-right:5px;
+  font-family:'Font Awesome\ 5 Free';
+  color:$theme_link_color;
+	font-weight:600;
+}
+[dir="rtl"] ul.feed span.view_more .view_less_link:before
+{
+  padding-left:0px;
+  margin-right:0px;
+  padding-right:10px;
+  margin-left:5px;
+}
+ul.feed .feed_item_posted .view_more_link,
+ul.feed .feed_item_posted .view_less_link
+{
+  font-size:.8em;
+}
+div.feed_viewmore
+{
+  border-top-width:1px;
+  padding-top:5px;
+  text-align:center;
+}
+[dir="rtl"] div.feed_viewmore
+{
+  text-align:center;
+}
+
+
+/* edit activity feed */
+.global_form_activity_edit_post .form-elements {
+  padding:0;
+  margin-top:0.1em;
+	display:flex;
+  flex-wrap:wrap;
+}
+
+.global_form_activity_edit_post .form-label {
+  display:none;
+}
+
+.global_form_activity_edit_post #buttons-wrapper {
+  margin-top:1em;
+	clear:both;
+	width:100%;
+}
+
+/*
+COMMENT TIPS STYLES
+Compatibility for lack of theme updates
+*/
+div.comments_comment_likes_tips
+{
+  border:1px solid $theme_foreground_border_color;
+  padding:4px 7px;
+  background-color:$theme_foreground_background_color;
+  color:$theme_font_color_light;
+  font-size:0.9em;
+}
+.comment-compose-container .overTxtLabel {
+  padding:1em;
+}
+
+
+
+/*
+SHARE POPUP (SMOOTHBOX)
+Used to style the attachment preview inside the
+share popup.
+*/
+.sharebox
+{
++foreground;
+  margin:10px;
+  padding:10px;
+  overflow:hidden;
+}
+.sharebox_photo
+{
+  float:left;
+  overflow:hidden;
+  margin-right:8px;
+}
+html[dir="rtl"] .sharebox_photo
+{
+  float:right;
+  margin-right:0px;
+  margin-left:8px;
+}
+.sharebox_photo img
+{
+  border:1px solid $theme_photo_border_color;
+  max-width:120px;
+  max-height:120px;
+}
+.sharebox_title
+{
+  font-weight:bold;
+}
+.sharebox_description
+{
+  font-size:.8em;
+  margin-top:3px;
+}
+
+
+
+
+
+/* NOTIFICATION TYPE ICONS */
+.notification_type_commented:before,
+.notification_type_commented_commented:before
+{
+  content:"\\f075";
+}
+
+.notification_type_liked:before,
+.notification_type_liked_commented:before
+{
+  content:"\\f164";
+}
+
+
+
+/* FACEBOOK STYLES FOR FEED COMPOSER */
+.composer_facebook_toggle,
+.composer_twitter_toggle
+{
+  float:right;
+  display:inline-block;
+  margin-left:10px;
+  margin-top:7px;
+  margin-right:1px;
+  padding:0px;
+}
+[dir="rtl"] .composer_facebook_toggle,
+[dir="rtl"] .composer_twitter_toggle
+{
+  float:left;
+  margin-left:0px;
+  margin-right:10px;
+  margin-right:0px;
+  margin-left:1px;
+}
+.composer_facebook_toggle:before,
+.composer_twitter_toggle:before{
+  font-family:'Font Awesome\ 5 Free';
+  font-size:16px;
+}
+.composer_facebook_toggle:before
+{
+  content:"\\f230";
+  color:#607D8B;
+}
+.composer_twitter_toggle:before
+{
+  content:"\\f099";
+  color:#607D8B;
+}
+.composer_facebook_toggle:hover::before
+{
+  cursor:pointer;
+  content:"\\f230";
+  color:#3B5998;
+}
+.composer_twitter_toggle:hover::before
+{
+  cursor:pointer;
+  content:"\\f099";
+  color:#00AEDD;
+}
+.composer_facebook_toggle_active:before
+{
+  content:"\\f230";
+  color:#3B5998;
+}
+.composer_twitter_toggle_active:before
+{
+  content:"\\f099";
+  color:#00AEDD;
+}
+.composer_facebook_tooltip,
+.composer_twitter_tooltip
+{
+  display:none;
++rounded;
+  position:absolute;
+  padding:7px;
+  background:#333;
+  opacity:.8;
+  color:#fff;
+  font-weight:bold;
+  text-align:center;
+  width:180px;
+  font-size:8pt;
+  margin-top:-30px;
+  margin-left:-84px;
+}
+.composer_facebook_toggle:hover > .composer_facebook_tooltip,
+.composer_twitter_toggle:hover > .composer_twitter_tooltip
+{
+  display:block;
+}
+
+.tip_container {
+  display:inline-block;
+}
+
+.tip_container .tip_wapper {
+  display:none;
++rounded;
+  position:absolute;
+  color:#fff;
+  font-size:8pt;
+  z-index:1;
+}
+.tip_container .tip_body {
+  padding:5px;
+  background:#333;
+  opacity:.8;
+}
+
+.tip_container .tip_body a {
+  color:#fff;
+}
+.tip_container ul li {
+  padding:2px 5px;
+}
+.tip_container:hover .tip_wapper {
+  display:block;
+}
+
+/* ACTION TYPE ICONS */
+.feed_item_date:before
+{
+  content:"\\f075";
+}
+
+/* ACTIVITY COMPOSEBOX EMOTIONS */
+.emoticons-activator::before {
+  content:"\\f118";
+  color:#ff9800;
+  font-family:'Font Awesome\ 5 Free';
+  font-size:20px;
+}
+.emoticons-activator {
+  cursor:pointer;
+  position:absolute;
+  vertical-align:middle;
+  right:1em;
+  bottom:.8em;
+}
+[dir="rtl"] .emoticons-activator {
+  left:1em;
+  right:auto;
+}
+.emoticons_box {
+  background-color:$theme_pulldown_background_color;
+  border:1px solid $theme_border_color;
+  padding:5px;
+  position:absolute;
+  right:-9px;
+  top:30px;
+  width:270px;
+  z-index:99;
+}
+[dir="rtl"] .emoticons_box {
+  left:-9px;
+  right:auto;
+}
+.emoticons_box_closed {
+  display:none;
+}
+.emoticons_box_opened {
+  display:block;
+}
+.emoticons_box_icon img{
+  margin:5px;
+  float:left;
+  height:20px;
+  width:20px;
+}
+[dir="rtl"] .emoticons_box_icon {
+  float:right;
+}
+.emoticons_box_arrow {
+  border:1px solid $theme_border_color;
+  border-bottom:0;
+  border-right:0;
+  display:block;
+  height:14px;
+  width:14px;
+  position:absolute;
+  right:9px;
+  top:-8px;
+  -webkit-transform:rotate(45deg);
+  -moz-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+  transform:rotate(45deg);
+  background:$theme_pulldown_background_color;
+}
+[dir="rtl"] .emoticons_box_arrow {
+  left:9px;
+  right:auto;
+}
+img.emoticon_img{
+  width:20px;
+  height:20px;
+  vertical-align:text-bottom;
+}
+img[alt=emoticon_img] {
+	width:20px;
+	height:20px;
+}
+/* ---------- Responsive CSS -------------*/
+@media (max-width:600px) {
+  .emoticons-activator {
+    display:none;
+  }
+}
+/* ACTIVITY POSTBOX CONTAINER PRIVACY PULLDOWN */
+.privacy_list {
++rounded;
+  position:relative;
+  display:inline-block;
+  margin-right:5px;
+  border:1px solid $theme_border_medium_color;
+}
+[dir="rtl"] .privacy_list {
+  margin-right:0;
+  margin-left:5px;
+}
+.privacy_pulldown_button {
+  display:inline-block;
+  padding:10px;
+  outline:none;
+  -moz-user-select:none;
+  -webkit-user-select:none;
+  line-height:100%;
+}
+a.privacy_pulldown_button:link {
+  color:$theme_font_color;
+}
+.privacy_pulldown_button:hover {
+  text-decoration:none;
+}
+.privacy_pulldown_contents_wrapper {
+  background-color:$theme_pulldown_background_color;
+  right:0;
+  min-width:200px;
+  position:absolute;
+  top:100%;
+  z-index:99;
+  display:none;
+  -moz-box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -webkit-box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+[dir="rtl"] .privacy_pulldown_contents_wrapper {
+  left:0;
+  right:auto;
+}
+.privacy_pulldown_active .privacy_pulldown_contents_wrapper {
+  display:block;
+}
+.privacy_pulldown_contents {
+  padding:7px 0;
+}
+.privacy_pulldown_contents > ul {
+  margin:0px;
+  max-height:400px;
+  padding:0px;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+.privacy_pulldown_contents > ul > li {
+  display:block;
+  padding:7px 10px;
+  margin-bottom:2px;
+}
+.privacy_pulldown_contents > ul > li:hover {
+  background:rgba(0, 0, 0, .03);
+}
+.privacy_pulldown_contents > ul > li.activity_tab_active {
+  background:rgba(0, 0, 0, .05);
+}
+.privacy_pulldown_contents > ul > li div {
+  cursor:pointer;
+  overflow:hidden;
+}
+.privacy_pulldown_contents > ul > li.sep {
+  border-bottom:1px solid $theme_border_color;
+  margin:5px 7px 6px;
+  padding-top:1px;
+}
+.privacy_pulldown_contents > ul > li.sep:hover {
+  background:transparent;
+}
+.privacy_pulldown_icon {
+  margin-right:5px;
+}
+[dir="rtl"] .privacy_pulldown_icon {
+  margin-left:5px;
+  margin-right:0;
+}
+.privacy_pulldown_icon:before {
+  font-family:'Font Awesome\ 5 Free';
+  font-style:normal;
+	font-weight:900;
+}
+.privacy_pulldown_contents > ul > li .privacy_pulldown_icon {
+  width:20px;
+  float:left;
+  text-align:center;
+}
+[dir="rtl"] .privacy_pulldown_contents > ul > li .privacy_pulldown_icon {
+  float:right;
+  text-align:center;
+}
+.activity_icon_feed_everyone:before {
+  content:"\\f0ac";
+}
+.activity_icon_feed_friends:before {
+  content:"\\f0c0";
+	font-weight:900 !important;
+}
+.activity_icon_feed_networks:before {
+  content:"\\f0e8";
+}
+.activity_icon_feed_onlyme:before {
+  content:"\\f023";
+	font-weight:900 !important;
+}
+.activity_icon_feed_network:before {
+  content:"\\f024";
+}
+/* ACTIVITY POSTBOX CONTAINER PRIVACY TOOLTIP */
+.privacy_list_tip {
++rounded;
+  background:#333;
+  color:#fff;
+  display:none;
+  font-size:12px;
+  font-weight:normal;
+  left:0;
+  opacity:0.9;
+  padding:8px 10px;
+  position:absolute;
+  right:auto;
+  white-space:nowrap;
+  margin-top:-42px;
+}
+.privacy_list_tip img {
+  clear:both;
+  bottom:0;
+  position:absolute;
+  left:0;
+  right:0;
+  margin:0 auto -9px;
+}
+.privacy_pulldown:hover .privacy_list_tip {
+  display:block;
+}
+
+/* ---------- Responsive CSS -------------*/
+@media (max-width:600px) {
+  .privacy_pulldown_contents_wrapper {
+    left:0;
+    right:auto;
+  }
+  [dir="rtl"] .privacy_pulldown_contents_wrapper {
+    left:auto;
+    right:0;
+  }
+  #compose-submit {
+    float:right;
+  }
+  [dir="rtl"] #compose-submit {
+    float:left;
+  }
+	.comment-likes-activity-feed > div ul > li{
+		margin-right:10px;
+	}
+	.comment-likes-activity-feed > div ul > li:last-child{
+		margin-right:0;
+	}
+}
+@media (min-width:600px) {
+  .compose-right-content {
+    float:right;
+  }
+  [dir="rtl"] .compose-right-content {
+    float:left;
+  }
+}
+/* EDIT POST PRIVACY */
+.global_form_activity_edit_post #networkprivacy-element select{
+   background:$theme_pulldown_background_color;
+	 margin-top:10px;
+	 outline-color:transparent;
+   max-width:150px;
+}
+.global_form_activity_edit_post #networkprivacy-element select option{
+	 background:rgba(0, 0, 0, .05);
+}
+.global_form_activity_edit_post #body-wrapper {
+	 margin:5px 10px 10px 0;
+   flex:1;
+	 overflow:hidden;
+}
+.compose-content-counter {
+	 color:$theme_button_background_color;
+	 font-weight:600;
+   border:1px solid;
+   border-radius:50px;
+   height:34px;
+   line-height:34px;
+   width:34px;
+   text-align:center;
+   margin-right:10px;
+   font-size:14px;
+}
+.feed_item_body_edit_content .compose-container{
+	 border-radius:4px;
+	 border-width:1px;
+	 margin-top:15px;
+	 padding:1em;
+}
+.feed_item_body_edit_content .compose-content-counter{
+   margin-top:10px;
+}
+.feed_item_body_edit_content .compose-content{
+	 padding:0;
+}
+/* NOTIFICATIONS DELETE */
+.layout_core_menu_mini #core_menu_mini_menu .notifications_menu > li a i {
+  display:inline-block !important;
+}
+.notifications_menu > li{
+  position:relative;
+}
+.notifications_item_delete{
+	position:absolute;
+	right:0;
+	left:0;
+	top:5px;
+	max-width:90%;
+	margin:auto;
+	display:none;
+}
+.notifications_menu > li:hover .notifications_item_delete{
+  display:flex;
+}
+.notifications_item_delete > a{
+	border-width:1px;
+	width:30px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	border-radius:50px;
+	display:inline-block;
+	background:$theme_list_background_color;
+	position:absolute;
+  right:0;
+}
+.notifications_delete_dropdown {
+	background:$theme_list_background_color;
+	padding:7px;
+	border-radius:6px;
+	flex-basis:80%;
+	margin-right:10px;
+	text-align:center;
+	position:relative;
+	-webkit-box-shadow:0 0 20px 0 rgba(44,101,144,0.1);
+  box-shadow:0 0 20px 0 rgba(44,101,144,0.1);
+}
+.notifications_delete_dropdown a > i {
+	margin-right:5px;
+	font-size:18px;
+	vertical-align:text-top;
+}
+.notifications_delete_dropdown:before {
+	content:"";
+	border-left:8px solid $theme_list_background_color;
+	border-bottom:8px solid transparent;
+	border-top:8px solid transparent;
+	position:absolute;
+	right:-8px;
+	top:8px;
+	-webkit-box-shadow:0 0 20px 0 rgba(44,101,144,0.1);
+  box-shadow:0 0 20px 0 rgba(44,101,144,0.1);
+}
+.notifications .delete_noti {
+	background:$theme_button_background_color;
+	color:$theme_button_font_color !important;
+	padding:2px 10px;
+	font-size:90%;
+	border-radius:4px;
+	display:inline-block;
+	margin-top:5px;
+}
+.notifications .delete_noti > i{
+  margin-right:4px;	
+}
+[dir="rtl"] .notifications .delete_noti > i{
+  margin-right:0;	
+	margin-left:4px;
+}
+.showdropdown + .notifications_delete_dropdown {
+  display:block !important;
+}

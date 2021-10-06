@@ -1,0 +1,374 @@
+{
+  "type": "library",
+  "name": "ofc",
+  "version": "5.7.0",
+  "revision": "9747",
+  "path": "application\/libraries\/OFC",
+  "repository": null,
+  "sku": null,
+  "date": "Thu, 23 Sep 2021 11:13:16 +0000",
+  "title": "Open Flash Chart",
+  "description": null,
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "Webligo Developments"
+  ],
+  "meta": {
+    "date": "Thu, 23 Sep 2021 11:13:16 +0000",
+    "title": "Open Flash Chart",
+    "description": null,
+    "developer": null,
+    "authors": [
+      "Webligo Developments"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    
+  ],
+  "callback": null,
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/libraries\/OFC": {
+      "type": "directory",
+      "path": "application\/libraries\/OFC",
+      "structure": [
+        {
+          "path": "JSON_Format.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 2890,
+          "sha1": "7cf8dbfd13984fb8344577a2f1d1ad2012cb3e96"
+        },
+        {
+          "path": "license",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 111,
+          "sha1": "20c4b7efeb6880315c43fafd6c1ade3909cde5b4"
+        },
+        {
+          "path": "JSON.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 33975,
+          "sha1": "783fc3633e7f52ab44a001686834523a96dfe7b9"
+        },
+        {
+          "path": "OFC_Chart.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 2740,
+          "sha1": "0b7736006686523a59ab588c307ef3b1c73369e2"
+        },
+        {
+          "path": "Charts",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 384,
+          "sha1": null
+        },
+        {
+          "path": "Charts\/OFC_Charts_Scatter.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1579,
+          "sha1": "0ac8a681e6fe3b0fe739316a469b14d584960ffd"
+        },
+        {
+          "path": "Charts\/OFC_Charts_Line.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1513,
+          "sha1": "fa60fbf0c766b44cf12dd497cdec100266a0637e"
+        },
+        {
+          "path": "Charts\/Area",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 96,
+          "sha1": null
+        },
+        {
+          "path": "Charts\/Area\/OFC_Charts_Area_Hollow.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1518,
+          "sha1": "ba071da2af72dfdbb399dd3d8a7c195fb57df083"
+        },
+        {
+          "path": "Charts\/OFC_Charts_Base.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 940,
+          "sha1": "8efb61cffad8b82916f7a8ab561216345b3cbb9a"
+        },
+        {
+          "path": "Charts\/Scatter",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 96,
+          "sha1": null
+        },
+        {
+          "path": "Charts\/Scatter\/OFC_Scatter_Line.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1263,
+          "sha1": "51760be831e8d67ba68d42e3cb057312d773ab5b"
+        },
+        {
+          "path": "Charts\/Line",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 128,
+          "sha1": null
+        },
+        {
+          "path": "Charts\/Line\/OFC_Charts_Line_Hollow.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1082,
+          "sha1": "9ec0fc85de58582924be6c42f1347a56fa06f0e7"
+        },
+        {
+          "path": "Charts\/Line\/OFC_Charts_Line_Dot.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1076,
+          "sha1": "be5a62eeaaa712d25831bee8d6acb7a26c57cbe5"
+        },
+        {
+          "path": "Charts\/OFC_Charts_Pie.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1554,
+          "sha1": "c653d0124ec1f7c4df650668144b548d46a225e5"
+        },
+        {
+          "path": "Charts\/Bar",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 288,
+          "sha1": null
+        },
+        {
+          "path": "Charts\/Bar\/OFC_Charts_Bar_Horizontal.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1351,
+          "sha1": "80c12861b9bb794a63023a6a780c340af9685b81"
+        },
+        {
+          "path": "Charts\/Bar\/OFC_Charts_Bar_Glass.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1317,
+          "sha1": "fc64d5ba8347a2da7e79c54ec010abd0882f010a"
+        },
+        {
+          "path": "Charts\/Bar\/OFC_Charts_Bar_Stack.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1272,
+          "sha1": "8b4e65703c48c38680752260380687d3180818c1"
+        },
+        {
+          "path": "Charts\/Bar\/OFC_Charts_Bar_Value.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1379,
+          "sha1": "c3ab450768753f3726f6c25a87b5d81e64ca9c83"
+        },
+        {
+          "path": "Charts\/Bar\/OFC_Charts_Bar_Sketch.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1328,
+          "sha1": "c258db8d96f6c363eca676dd89090cbe0197933b"
+        },
+        {
+          "path": "Charts\/Bar\/OFC_Charts_Bar_3d.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1307,
+          "sha1": "1561af0aa45b1aa91ac454a9cda533a792e666b2"
+        },
+        {
+          "path": "Charts\/Bar\/OFC_Charts_Bar_Filled.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1746,
+          "sha1": "04a286a3621f662f30b14197db52c5801c4898f7"
+        },
+        {
+          "path": "Charts\/OFC_Charts_Bar.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1869,
+          "sha1": "b045d00c5dc0b3e9d2924d40b5eb60178d4f9f9e"
+        },
+        {
+          "path": "Charts\/OFC_Charts_Area.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1076,
+          "sha1": "d35eb1d31e8aa55c470c242bfeb8a30dab384d93"
+        },
+        {
+          "path": "manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 389,
+          "sha1": "006542938c47aecc5b558f039fbf38deef8ec806"
+        },
+        {
+          "path": "Elements",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 224,
+          "sha1": null
+        },
+        {
+          "path": "Elements\/Legend",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 128,
+          "sha1": null
+        },
+        {
+          "path": "Elements\/Legend\/OFC_Elements_Legend_Y.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1081,
+          "sha1": "f44df381e726336caed63e0b46bd269f860a2d7d"
+        },
+        {
+          "path": "Elements\/Legend\/OFC_Elements_Legend_X.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1081,
+          "sha1": "682e851d7500b96bbb519bbe33b42827a1c94bb9"
+        },
+        {
+          "path": "Elements\/OFC_Elements_Title.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1078,
+          "sha1": "4b853976f05c38bc738558f5783a0716908733e1"
+        },
+        {
+          "path": "Elements\/Axis",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 224,
+          "sha1": null
+        },
+        {
+          "path": "Elements\/Axis\/OFC_Elements_Axis_Y.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1520,
+          "sha1": "25ad752792134c15acb7695df5cef9b47e3894d8"
+        },
+        {
+          "path": "Elements\/Axis\/OFC_Elements_Axis_X.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1951,
+          "sha1": "25a489801143db5d3e4f53b86972fc2c8df6c110"
+        },
+        {
+          "path": "Elements\/Axis\/OFC_Elements_Axis_X_Label.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1517,
+          "sha1": "fc4ec9a24c25f71ac92384c7f172bcc4bfaab217"
+        },
+        {
+          "path": "Elements\/Axis\/OFC_Elements_Axis_X_Label_Set.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1316,
+          "sha1": "c63015a45098c85e73cb0fd65c067ee0393fea65"
+        },
+        {
+          "path": "Elements\/Axis\/OFC_Elements_Axis_Y_Right.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1130,
+          "sha1": "14dbe74f45119ddb92a4b898d366648a5889c755"
+        },
+        {
+          "path": "Elements\/OFC_Elements_Base.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1011,
+          "sha1": "4389ae32affa616dcffccdca868cb1fad472c67e"
+        },
+        {
+          "path": "Elements\/OFC_Elements_Axis.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1392,
+          "sha1": "250871c37dd5b4c19bf95a67092f55ab627197f9"
+        },
+        {
+          "path": "OFC_Elements.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1475,
+          "sha1": "8db7f51e489f651ab069f52f21ce9e4b6cdf101f"
+        }
+      ]
+    }
+  }
+}

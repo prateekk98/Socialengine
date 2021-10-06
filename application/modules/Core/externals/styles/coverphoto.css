@@ -1,0 +1,429 @@
+/*Profile Cover Photo Start Here*/
+.layout_user_cover_photo,
+.layout_event_cover_photo,
+.layout_group_cover_photo {
+  margin-bottom: 15px;
+	background:none !important;
+	padding:0 !important;
+	border:0 !important;
+	border-radius:0 !important;
+}
+.profile_cover_wrapper {
+  position: relative;
+}
+.profile_cover_photo_wrapper {
+  position: relative;
+  height: 400px;
+}
+.profile_cover_photo {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.profile_cover_photo img {
+  width: 100%;
+  min-height: 100%;
+  border: none;
+  position: relative;
+}
+.profile_cover_photo_empty {
+  border: none;
+  height: 100%;
+}
+.cover_photo_overlay {
+  display: table;
+  height: 400px;
+  box-sizing: border-box;
+  width: 100%;
+  background: rgba(0,0,0,.2);
+}
+.profile_cover_photo_wrapper .draggable {
+  opacity: 0.5;
+  cursor: move;
+}
+.is_hidden {
+  display: none;
+}
+.cover_photo_loader {
+  height: 32px;
+  width: 32px;
+  margin: 50px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(~/../../images/large-loading.gif);
+}
+.popup_options {
+  display: block;
+  padding: 5px 0;
+  overflow: hidden;
+}
+.popup_options_right {
+  float: right;
+  margin-left: 15px;
+}
+.popup_options_right a {
+  line-height: normal;
+}
+.popup_options_left {
+  float: left;
+}
+/*Profile Cover Photo End Here*/
+
+/*Cover Information Starts Here*/
+/* Photo */
+.profile_cover_head_section {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+	z-index:9;
+  box-sizing: border-box;
+}
+.profile_main_photo_wrapper {
+  width: 147px;
+  float: left;
+  margin-left: 20px;
+  position: relative;
+  height: 2px;
+  overflow: visible;
+  margin-bottom: 20px;
+}
+[dir="rtl"] .profile_main_photo_wrapper {
+  float: right;
+  margin-right: 20px;
+  margin-left: 0;
+}
+.profile_main_photo {
+  background-color: #fff;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  bottom: 0;
+  overflow: hidden;
+  padding: 2px;
+  position: absolute;
+}
+.profile_main_photo .item_photo {
+  min-height: 100px;
+  max-height: 140px;
+  overflow: hidden;
+  width: 140px;
+}
+.profile_main_photo .show_photo_box{
+  height: 140px;
+}
+.profile_main_photo .item_photo table {
+  height: 100%;
+  width: 100%;
+}
+.profile_main_photo .item_photo table td {
+  text-align: center;
+}
+[dir="rtl"] .profile_main_photo .item_photo table td {
+  text-align: center;
+}
+.profile_main_photo_wrapper #user_profile_photo,
+.profile_main_photo_wrapper #group_profile_photo,
+.profile_main_photo_wrapper #event_profile_photo {
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 140px;
+  width: 140px;
+  background-size: cover;
+}
+/* Content */
+.cover_photo_profile_options {
+  margin-left: 180px;
+  position: absolute;
+  bottom: 0;
+  min-height: 100px;
+}
+[dir="rtl"] .cover_photo_profile_options {
+  margin-left: 0px;
+  margin-right: 195px;
+}
+.cover_photo_profile_options #profile_status {
+  overflow: visible;
+}
+.cover_photo_profile_options h2 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: normal;
+  color: #fff;
+}
+.coverphoto_navigation {
+  position: relative;
+}
+.coverphoto_navigation > i {
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  opacity: .7;
+}
+.coverphoto_navigation > i:hover {
+  opacity: 1;
+}
+#global_page_user-profile-index.guest-user .coverphoto_navigation > i {
+  display: none;
+}
+.coverphoto_navigation ul {
+  display: none;
+  position: absolute;
+  background-color:#fff;
+  z-index:99;
+  font-size: 13px;
+  min-width: 200px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+  padding: 7px 0 6px 0;
+  border-radius: 3px;
+  margin-top: 11px;
+  left: -20px;
+  text-align:left;
+}
+.coverphoto_navigation ul:before {
+  border-color: transparent;
+  border-style: solid;
+  border-width: 10px;
+  content: "";
+  height: 0;
+  left: 10px;
+  position: absolute;
+  top: -20px;
+  width: 0;
+  border-bottom-color: #fff;
+}
+.coverphoto_navigation:hover ul {
+  display: block;
+}
+.coverphoto_navigation ul > li {
+  padding-bottom: 5px;
+  margin-top: 5px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.coverphoto_navigation ul > li:first-child {
+  margin-top: 0;
+}
+.coverphoto_navigation ul > li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.coverphoto_navigation ul > li > a:before {
+  display: none;
+}
+.coverphoto_navigation ul > li > a {
+  padding: 5px 10px;
+  line-height: 20px;
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+}
+.cover_photo_profile_options .profile_status_text {
+  width: 100%;
+  float: left;
+  margin-top: 5px;
+  color: #fff;
+}
+.cover_photo_profile_options .profile_status_text a {
+  color: #fff;
+}
+.profile_cover_photo_wrapper:hover .profile_cover_options,
+.profile_main_photo_wrapper:hover .profile_cover_options {
+  display: block;
+}
+/*Cover Information Ends Here*/
+
+/* Photo edit icon and options pulldown UI for Profile and Cover photo */
+.profile_cover_btn i {
+  font-style: normal;
+  display: block;
+  line-height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.profile_cover_options {
+  display: none;
+}
+.profile_cover_options .edit-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+[dir="rtl"] .profile_cover_options .edit-button{
+  left: 20px;
+  right: auto;
+}
+ul.profile_options_pulldown {
+  background-color: #fff;
+  position: absolute;
+  z-index: 99;
+  font-size: 13px;
+  right: 0;
+  min-width: 200px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+  padding: 7px 0 6px 0;
+  border-radius: 3px;
+  display: none;
+  margin-top: 11px;
+}
+ul.profile_options_pulldown:before {
+  border-color: transparent;
+  border-style: solid;
+  border-width: 10px;
+  content: "";
+  height: 0;
+  right: 10px;
+  position: absolute;
+  top: -20px;
+  width: 0;
+  border-bottom-color: #fff;
+}
+ul.profile_options_pulldown > li {
+  padding-bottom: 5px;
+  margin-top: 5px;
+  border-bottom: 1px solid #dfdfdf;
+}
+ul.profile_options_pulldown > li:first-child{
+  margin-top: 0;
+}
+ul.profile_options_pulldown > li:last-child{
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+ul.profile_options_pulldown > li > a {
+  padding: 5px 10px;
+  line-height: 20px;
+  display: block;
+}
+.profile_cover_options li:hover ul.profile_options_pulldown {
+  display: block;
+}
+.profile_main_photo_wrapper .profile_cover_options .edit-button {
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 40px;
+  top: -90px;
+}
+.profile_main_photo_wrapper ul.profile_options_pulldown {
+  left: 0;
+  right: auto;
+}
+.profile_main_photo_wrapper ul.profile_options_pulldown::before {
+  right: auto;
+  left: 10px;
+}
+
+/* Save and Cancel buttons */
+.profile_cover_options .save-button {
+  right: 20px;
+  bottom: 30px;
+  position: absolute;
+  z-index: 1;
+}
+[dir="rtl"] .profile_cover_options .save-button{
+  left: 20px;
+  right: auto;
+}
+.profile_cover_options .save-button span {
+  display: inline-block;
+  margin-left: 5px;
+}
+[dir="rtl"] .profile_cover_options .save-button span{
+  margin-left: 0;
+  margin-right: 5px;
+}
+.profile_cover_options .save-button span button {
+  font-size: 13px;
+}
+
+/* Photo upload popup */
+.choose_photos_content ul.thumbs {
+  margin: 10px 0;
+}
+.choose_photos_content ul.thumbs li {
+  clear: none;
+  height: auto;
+  margin-bottom: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+  vertical-align: top;
+}
+#coverphoto_preview-wrapper {
+  padding-top : 0;
+  margin-top : -15px;
+}
+
+/* Cover photo tabs layout and UI */
+#global_page_user-profile-index .layout_top > .layout_middle {
+  overflow: visible;
+}
+#global_page_user-profile-index .layout_top + .layout_main {
+  padding: 0 20px;
+}
+#global_page_user-profile-index .layout_top + .layout_main .layout_middle {
+  margin-top: -55px;
+}
+#global_page_user-profile-index .layout_top + .layout_main .layout_left,
+#global_page_user-profile-index .layout_top + .layout_main .layout_right {
+  margin-top: 55px;
+}
+#global_page_group-profile-index .layout_top > .layout_middle {
+  overflow: visible;
+}
+#global_page_group-profile-index .layout_top + .layout_main {
+  padding: 0 20px;
+}
+#global_page_group-profile-index .layout_top + .layout_main .layout_middle {
+  margin-top: -55px;
+}
+#global_page_group-profile-index .layout_top + .layout_main .layout_left,
+#global_page_group-profile-index .layout_top + .layout_main .layout_right {
+  margin-top: 55px;
+}
+
+#global_page_event-profile-index .layout_top > .layout_middle {
+  overflow: visible;
+}
+#global_page_event-profile-index .layout_top + .layout_main {
+  padding: 0 20px;
+}
+#global_page_event-profile-index .layout_top + .layout_main .layout_middle {
+  margin-top: -55px;
+}
+#global_page_event-profile-index .layout_top + .layout_main .layout_left,
+#global_page_event-profile-index .layout_top + .layout_main .layout_right {
+  margin-top: 55px;
+}
+.profile_cover_photo_tabs {
+  width: 100%;
+  box-sizing: border-box;
+}
+.profile_cover_photo_tabs .tabs_alt {
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.profile_cover_photo_tabs .tabs_alt > ul {
+  border-bottom: 0;
+  padding: 0;
+}
+.profile_cover_photo_tabs .tabs_alt > ul > li > a {
+  padding: 15px;
+  display: inline-block;
+  font-weight: normal;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.profile_cover_photo_tabs .tabs_alt > ul > li.active > a {
+  top: 0;
+  padding: 15px;
+  background: transparent;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}

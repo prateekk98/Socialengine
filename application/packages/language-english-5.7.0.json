@@ -1,0 +1,166 @@
+{
+  "type": "language",
+  "name": "english",
+  "version": "5.7.0",
+  "revision": null,
+  "path": "application\/languages\/en",
+  "repository": null,
+  "sku": null,
+  "date": "Thu, 23 Sep 2021 11:13:16 +0000",
+  "title": "English",
+  "description": null,
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "Webligo Developments"
+  ],
+  "meta": {
+    "date": "Thu, 23 Sep 2021 11:13:16 +0000",
+    "title": "English",
+    "description": null,
+    "developer": null,
+    "authors": [
+      "Webligo Developments"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    
+  ],
+  "callback": null,
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/languages\/en": {
+      "type": "directory",
+      "path": "application\/languages\/en",
+      "structure": [
+        {
+          "path": "network.csv",
+          "dir": false,
+          "file": true,
+          "perms": "0755",
+          "size": 2873,
+          "sha1": "f93a7064d42777e14ae3a6b88a0261a11bfd94d3"
+        },
+        {
+          "path": "authorization.csv",
+          "dir": false,
+          "file": true,
+          "perms": "0755",
+          "size": 3865,
+          "sha1": "b81895b63c281033311291f2d0e725ea180cabe3"
+        },
+        {
+          "path": "core.csv",
+          "dir": false,
+          "file": true,
+          "perms": "0755",
+          "size": 76595,
+          "sha1": "da4a3cbef4dc7f004c4e3a546272c22c93bca39d"
+        },
+        {
+          "path": "messages.csv",
+          "dir": false,
+          "file": true,
+          "perms": "0755",
+          "size": 3217,
+          "sha1": "c1bb26c71a32675e9cb3ed18e925e27938044bfc"
+        },
+        {
+          "path": "mobi.csv",
+          "dir": false,
+          "file": true,
+          "perms": "0755",
+          "size": 52,
+          "sha1": "651c126612f03850397c71285cbe1ca06b336f4e"
+        },
+        {
+          "path": "announcement.csv",
+          "dir": false,
+          "file": true,
+          "perms": "0755",
+          "size": 1735,
+          "sha1": "ec587a247cc68209e7e936e535db9afdf6fff280"
+        },
+        {
+          "path": "serenity.csv",
+          "dir": false,
+          "file": true,
+          "perms": "0755",
+          "size": 186,
+          "sha1": "22179b0264137cffe34f94b1a564077a0e4fb924"
+        },
+        {
+          "path": "activity.csv",
+          "dir": false,
+          "file": true,
+          "perms": "0755",
+          "size": 17107,
+          "sha1": "e8554e21bec7a268939211ede485bef20cde6c7d"
+        },
+        {
+          "path": "storage.csv",
+          "dir": false,
+          "file": true,
+          "perms": "0755",
+          "size": 1299,
+          "sha1": "b291d14a0a53578faeb7258ce3c7f5b2cbe76072"
+        },
+        {
+          "path": "manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 433,
+          "sha1": "b1f40d1c52fa546c3ffbde0f73bab5eb5ac9d869"
+        },
+        {
+          "path": "hello-world.csv",
+          "dir": false,
+          "file": true,
+          "perms": "0755",
+          "size": 829,
+          "sha1": "69aa432f1f0564762b7185154dbe25d983e9b0df"
+        },
+        {
+          "path": "payment.csv",
+          "dir": false,
+          "file": true,
+          "perms": "0755",
+          "size": 21180,
+          "sha1": "c6f56ee32c0ecb02c2e9c2aee0069e8ce67c5eeb"
+        },
+        {
+          "path": "invite.csv",
+          "dir": false,
+          "file": true,
+          "perms": "0755",
+          "size": 5210,
+          "sha1": "7f93e80ca4f15fd6e12b760989763ab47de75bea"
+        },
+        {
+          "path": "user.csv",
+          "dir": false,
+          "file": true,
+          "perms": "0755",
+          "size": 52556,
+          "sha1": "67b14acb8cbb55be121075cdd68db4b79566f4c8"
+        },
+        {
+          "path": "fields.csv",
+          "dir": false,
+          "file": true,
+          "perms": "0755",
+          "size": 5360,
+          "sha1": "b906a00d884f95c1afbb174c8fd7166316454ef2"
+        }
+      ]
+    }
+  }
+}
